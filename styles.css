@@ -1,0 +1,102 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    width: 400px;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  #input-container {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  #interest-input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  #autocomplete-list {
+    position: absolute;
+    border-radius: 4px;
+    background-color: #cccccc;
+    z-index: 1000;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+    top: 100%;
+    left: 0;
+  }
+  
+  .autocomplete-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .autocomplete-item:hover {
+    background-color: #dbccff;
+  }
+  
+  #tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .tag {
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tag .remove-tag {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .tag .remove-tag:hover {
+    color: #ffdddd;
+  }
+  
+  .save-interest {
+    background-color: #007bff; /* A visible color for the save button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .save-interest:hover {
+    background-color: #0056b3;
+  }
+  

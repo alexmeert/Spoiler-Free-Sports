@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Spoiler Free YouTube",
+  "version": "1.0",
+  "description": "Blurs YouTube thumbnails and updates titles to be spoiler-free.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*", "*://m.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,5 @@
+Step 1: Open Chrome and go to chrome://extensions/.
+Step 2: Enable "Developer mode" (top right).
+Step 3: Click "Load unpacked" and select the directory with your extension files.
+Step 4: Visit YouTube to see if the thumbnails are blurred and titles are updated.
+Step 5: Ensure the extension works across different pages (e.g., video listings, video pages).
